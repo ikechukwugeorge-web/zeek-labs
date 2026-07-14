@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-07-12-14-06-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1783775785.873212	C3TXME4FovqanX2i28	192.168.43.178	56858	34.223.124.45	80	1	GET	silverquietlusheclipse.neverssl.com	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	3961	200	OK	-	-	(empty)	-	-	-	-	-	-	FkjWjk1LPlYhDff40j	-	text/html
+1783775806.250481	Ctabku4wkOPAYwBjTe	192.168.43.178	56876	34.223.124.45	80	1	GET	silverquietlusheclipse.neverssl.com	/online	http://neverssl.com/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	298	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	FW9DBu1e4YW2q0rzl1	-	text/html
+1783775807.438694	Ctabku4wkOPAYwBjTe	192.168.43.178	56876	34.223.124.45	80	2	GET	silverquietlusheclipse.neverssl.com	/online/	http://neverssl.com/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	2238	200	OK	-	-	(empty)	-	-	-	-	-	-	FA8b6q3TnPtKLiNwh2	-	text/html
+1783775808.276647	ChalvxGLB292GjQ5d	192.168.43.178	56878	34.223.124.45	80	1	GET	silverquietlusheclipse.neverssl.com	/favicon.ico	http://silverquietlusheclipse.neverssl.com/online/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	124	200	OK	-	-	(empty)	-	-	-	-	-	-	FstzIR107gWhnGSl7	-	image/png
+1783776001.965563	CJIzcr4aXq5mKdKet7	192.168.43.178	57928	34.160.111.145	80	1	GET	ifconfig.me	/	-	1.1	curl/8.20.0	-	0	14	200	OK	-	-	(empty)	-	-	-	-	-	-	FcvbI6hxQUpTyC3jl	-	text/plain
+#close	2026-07-12-14-07-00

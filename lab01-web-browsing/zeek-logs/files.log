@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-07-12-14-06-59
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1783775786.216839	FkjWjk1LPlYhDff40j	C3TXME4FovqanX2i28	192.168.43.178	56858	34.223.124.45	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	3961	-	0	0	F	-	-	-	-	-	-	-
+1783775807.399865	FW9DBu1e4YW2q0rzl1	Ctabku4wkOPAYwBjTe	192.168.43.178	56876	34.223.124.45	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	298	298	0	0	F	-	-	-	-	-	-	-
+1783775807.783507	FA8b6q3TnPtKLiNwh2	Ctabku4wkOPAYwBjTe	192.168.43.178	56876	34.223.124.45	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	2238	-	0	0	F	-	-	-	-	-	-	-
+1783775808.643437	FstzIR107gWhnGSl7	ChalvxGLB292GjQ5d	192.168.43.178	56878	34.223.124.45	80	HTTP	0	(empty)	image/png	-	0.000000	F	F	124	124	0	0	F	-	-	-	-	-	-	-
+1783776002.333424	FcvbI6hxQUpTyC3jl	CJIzcr4aXq5mKdKet7	192.168.43.178	57928	34.160.111.145	80	HTTP	0	(empty)	text/plain	-	0.000000	F	F	14	14	0	0	F	-	-	-	-	-	-	-
+1783776042.761434	FdsrNA2ceztChuyN2i	Cs4v522MRzQaR70x7e	192.168.43.178	51370	20.190.147.3	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1783776042.793775	F1IYGr4UevCysT3P79	CymSPR3cyAVD1f3bo8	192.168.43.178	51374	20.190.147.3	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+#close	2026-07-12-14-07-00

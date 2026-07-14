@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-07-12-14-06-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1783776032.819626	Cx1Nkn1cvfTvFV3qu9	192.168.43.178	37776	92.123.120.22	443	window_recision	-	F	zeek	-
+1783776035.077245	CKm2002uL6rye2wM13	192.168.43.178	47522	23.72.248.199	443	window_recision	-	F	zeek	-
+1783776035.428706	CO1R2sZgV9StEe5Uj	192.168.43.178	47542	23.72.248.199	443	window_recision	-	F	zeek	-
+1783776035.464833	CJ7jrr43qaJe1CTnZ8	192.168.43.178	47528	23.72.248.199	443	window_recision	-	F	zeek	-
+1783776040.304696	CTQ7TIQbPKzeir467	192.168.43.178	36672	184.27.140.73	443	window_recision	-	F	zeek	-
+1783776097.357115	CrrSkE2NAg9Fu6uSFe	192.168.43.178	34490	92.123.120.22	443	window_recision	-	F	zeek	-
+1783776097.784259	CwQ4Ps3KTR0HENnOBd	192.168.43.178	34506	92.123.120.22	443	window_recision	-	F	zeek	-
+#close	2026-07-12-14-07-00

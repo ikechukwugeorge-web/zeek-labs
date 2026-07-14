@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2026-07-12-14-06-59
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1783776042.761434	f85d11f8d9ae60334d19f41c51c45fe748fde77c605c7e3a09421067f11a97c7	3	04AD24D12A80D3D9344A3E0C5A21EC4C	CN=login.live.com,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US	1780531200.000000	1796169599.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	login.live.com,*.login.live.com	-	-	-	F	-	T	F
+1783776042.761434	c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9	3	0CF5BD062B5602F47AB8502C23CCF066	CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US	CN=DigiCert Global Root G2,OU=www.digicert.com,O=DigiCert Inc,C=US	1617062400.000000	1932595199.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+#close	2026-07-12-14-07-00

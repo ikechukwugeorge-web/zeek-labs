@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2026-07-12-14-06-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1783775931.636645	CtNqJj1ieXNyco485a	192.168.43.178	54910	172.217.16.227	443	1	0ff6c738009169af854e	d40012	eff6c738009169af	fonts.gstatic.com	h3	IXISXIXIXiiiishhhIHihoHHOOoOooOo
+1783775931.312056	CJL37E2pyuhrJFNnhh	192.168.43.178	33547	172.217.18.106	443	1	bdb43cdfe73ac3ceb232b59fd0	4e9164	fdb43cdfe73ac3ce	fonts.googleapis.com	h3	IXISXiiiishhhIHhoHHOOoo
+1783775929.965718	CxSsmR2Em7YqEACxQh	192.168.43.178	47979	34.160.111.145	443	1	06b8e8aa0754ec0e	f8eb03	e6b8e8aa0754ec0e	ifconfig.me	h3	IXISXiiishhhhhoIHHOOooOoO
+1783775932.412382	CwJhso1HrSjNXWgwml	192.168.43.178	34174	172.217.16.227	443	1	e6312c66b7dcb2ffd9d68c43ad	284d80	e6312c66b7dcb2ff	fonts.gstatic.com	h3	IXISXiiiishhhIHhoHHOOoo
+1783775932.468766	CLeoMPrQDIefHtkjc	192.168.43.178	35596	216.58.223.238	443	1	2fe985f36ceae4e66d3d6968ac	d57c7e	efe985f36ceae4e6	apis.google.com	h3	IXISXiiiisIXhhhHhhoHHOOooOOoooO
+1783775934.273151	CaPoFKNGqTb62QEp1	192.168.43.178	52671	142.250.102.84	443	1	d4c84ee162e6f6eef7311e909645	f269ad	f4c84ee162e6f6ee	accounts.google.com	h3	IXISXiiiishhhIHhhoHHOOhHoo
+1783775936.000853	CzUbV52UGBYeiji3G5	192.168.43.178	58287	172.217.22.163	443	1	1121d2d50c6d7238	1d0fd8	f121d2d50c6d7238	ssl.gstatic.com	h3	IXISXiiiishIHhhHhoHHOOoo
+1783776035.507463	Cj0p012EO5jQNRstIe	192.168.43.178	41784	23.72.248.199	443	1	87abf71f632234ededf7e069795ead8d	c1915f	0c1246a4d4c00f29	r.bing.com	h3	IXISXiiishhhhhIHHOOoooOoooOoOoOo
+1783776035.943335	CdKb3y2C1zJS1tqfgc	192.168.43.178	41414	23.72.248.199	443	1	e5ab06227cf41855	167ff1	25b2095bd2c00f29	r.bing.com	h3	IXISXiiishhhhhIHHOOOhooooOoOoo
+1783776033.219619	CEIQwV38aQFOkyhBca	192.168.43.178	56400	92.123.120.22	443	1	59e10ddcd543070b	1ecce6	0bb0831d84817328	www.bing.com	h3	IXISXiiishhhhhIHHOOihHooooOOooOooOoOoO
+1783776055.366942	CWjRhf2DTG39zCv7Fa	192.168.43.178	42373	185.199.109.215	443	1	16a6baea4bd3e25d	60018c	6140be4b56e03516d0636e2b7350f0617b	github.githubassets.com	h3	IXISXiishhhhhhoIHHOOhiHoOoOoOooooOoOoOoo
+1783776096.576680	Cfu6Pdn0cFVQP4Yy8	192.168.43.178	37157	92.123.120.22	443	1	4770d737953c93691af56b	34a1db	0246772c9a807328	www.bing.com	h3	IXIISXiiiiishIHOOOooooOo
+#close	2026-07-12-14-07-00
