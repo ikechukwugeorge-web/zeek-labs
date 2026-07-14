@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2026-07-14-15-26-39
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1783776950.298510	C9Wnb68HnkyQ1Lvlh	192.168.43.178	192.168.43.1	08:00:27:6e:13:6e	kali	-	-	-	192.168.43.178	3600.000000	-	-	REQUEST,ACK	0.707566
+#close	2026-07-14-15-26-39

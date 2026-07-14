@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2026-07-14-15-26-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1783776662.914807	CxhmWxs6HraTJejwh	192.168.43.178	41706	172.217.20.35	443	1	113a0794af2a2acb586c0596d1ad	4b1168	f13a0794af2a2acb	fonts.gstatic.com	h3	IXIISZXiiiishooIHOioO
+#close	2026-07-14-15-26-39

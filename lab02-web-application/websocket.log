@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	websocket
+#open	2026-07-14-15-26-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	host	uri	user_agent	subprotocol	client_protocols	server_extensions	client_extensions
+#types	time	string	addr	port	addr	port	string	string	string	string	vector[string]	vector[string]	vector[string]
+1783776677.119482	Cb1U622qf9zpHrgjNe	192.168.43.178	57130	172.17.0.2	3000	192.168.43.178:3000	/socket.io/?EIO=4&transport=websocket&sid=UH3TfgBtWxeCkR26AAAA	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	-	-	permessage-deflate
+#close	2026-07-14-15-26-39
