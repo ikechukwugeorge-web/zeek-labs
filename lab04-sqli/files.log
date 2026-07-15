@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-07-15-12-53-02
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1783777426.418453	FNiAs44YGLhJrLqu72	C1mowi1Uq7al8YW7jg	192.168.43.178	38846	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	F	16563	-	0	0	F	-	-	-	-	-	-	-
+1783777426.678736	F6DPk24xKZwUlrrTTl	CHSDRe4oc8zUdis6Hk	192.168.43.178	38832	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	F	7628	-	0	0	F	-	-	-	-	-	-	-
+1783777433.826171	FbBKZk1JBkhMpXfO46	CdkX4t2zN4YMAmRmol	192.168.43.178	59932	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000061	T	F	23513	-	0	0	F	-	-	-	-	-	-	-
+1783777464.446448	FuccYc34T1AVSnIxak	Ciu9Y032Mp9sAbIEBi	192.168.43.178	40894	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	T	44	44	0	0	F	-	-	-	-	-	-	-
+1783777464.721781	FCKgblHaMk67uRHZ4	Cf1qzj4X8OM9L9GJR3	192.168.43.178	40904	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	F	11	11	0	0	F	-	-	-	-	-	-	-
+1783777464.776127	FCLW3O1Ep3XYvsQ2kd	CiS7Ku1zDpPd9Ctbg6	192.168.43.178	40912	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	F	11	11	0	0	F	-	-	-	-	-	-	-
+1783777464.837392	FSm4k2XuP3TcpF6R8	Ciu9Y032Mp9sAbIEBi	192.168.43.178	40894	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	F	799	799	0	0	F	-	-	-	-	-	-	-
+1783777465.023043	FD5X7C3oFX8ppU7oIl	Cf1qzj4X8OM9L9GJR3	192.168.43.178	40904	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	F	38	38	0	0	F	-	-	-	-	-	-	-
+1783777465.070037	FvBibl3leF4G7aaDsd	CiS7Ku1zDpPd9Ctbg6	192.168.43.178	40912	172.17.0.2	3000	HTTP	0	(empty)	text/json	-	0.000000	T	F	125	125	0	0	F	-	-	-	-	-	-	-
+#close	2026-07-15-12-53-02

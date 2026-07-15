@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-07-15-12-53-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1783777426.183259	CkIXQh3dGhR46OXMN6	192.168.43.178	38816	172.17.0.2	3000	1	GET	192.168.43.178:3000	/rest/saveLoginIp	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1783777426.221731	C1mowi1Uq7al8YW7jg	192.168.43.178	38846	172.17.0.2	3000	1	GET	192.168.43.178:3000	/rest/products/search?q=	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	16563	200	OK	-	-	(empty)	-	-	-	-	-	-	FNiAs44YGLhJrLqu72	-	text/json
+1783777426.221807	CHSDRe4oc8zUdis6Hk	192.168.43.178	38832	172.17.0.2	3000	1	GET	192.168.43.178:3000	/api/Quantitys/	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	7628	200	OK	-	-	(empty)	-	-	-	-	-	-	F6DPk24xKZwUlrrTTl	-	text/json
+1783777433.676792	CdkX4t2zN4YMAmRmol	192.168.43.178	59932	172.17.0.2	3000	1	GET	192.168.43.178:3000	/rest/admin/application-configuration	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	23513	200	OK	-	-	(empty)	-	-	-	-	-	-	FbBKZk1JBkhMpXfO46	-	text/json
+1783777464.652367	Cf1qzj4X8OM9L9GJR3	192.168.43.178	40904	172.17.0.2	3000	1	GET	192.168.43.178:3000	/rest/user/whoami?fields=email	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	11	200	OK	-	-	(empty)	-	-	-	-	-	-	FCKgblHaMk67uRHZ4	-	text/json
+1783777464.653444	CiS7Ku1zDpPd9Ctbg6	192.168.43.178	40912	172.17.0.2	3000	1	GET	192.168.43.178:3000	/rest/user/whoami	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	11	200	OK	-	-	(empty)	-	-	-	-	-	-	FCLW3O1Ep3XYvsQ2kd	-	text/json
+1783777464.446448	Ciu9Y032Mp9sAbIEBi	192.168.43.178	40894	172.17.0.2	3000	1	POST	192.168.43.178:3000	/rest/user/login	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	http://192.168.43.178:3000	44	799	200	OK	-	-	(empty)	-	-	-	FuccYc34T1AVSnIxak	-	text/json	FSm4k2XuP3TcpF6R8	-	text/json
+1783777464.868373	Cf1qzj4X8OM9L9GJR3	192.168.43.178	40904	172.17.0.2	3000	2	GET	192.168.43.178:3000	/rest/user/whoami?fields=email	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	38	200	OK	-	-	(empty)	-	-	-	-	-	-	FD5X7C3oFX8ppU7oIl	-	text/json
+1783777464.870075	CiS7Ku1zDpPd9Ctbg6	192.168.43.178	40912	172.17.0.2	3000	2	GET	192.168.43.178:3000	/rest/user/whoami	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	125	200	OK	-	-	(empty)	-	-	-	-	-	-	FvBibl3leF4G7aaDsd	-	text/json
+1783777464.945884	CDLdal2KXlKuSJJdtd	192.168.43.178	40926	172.17.0.2	3000	1	GET	192.168.43.178:3000	/rest/products/search?q=	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1783777464.864904	Ciu9Y032Mp9sAbIEBi	192.168.43.178	40894	172.17.0.2	3000	2	GET	192.168.43.178:3000	/rest/basket/1	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1783777464.946877	CB2t8D26gij2M2AwM3	192.168.43.178	40914	172.17.0.2	3000	1	GET	192.168.43.178:3000	/api/Quantitys/	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2026-07-15-12-53-02

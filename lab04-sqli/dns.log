@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2026-07-15-12-53-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	opcode	opcode_name
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	count	string
+1783777428.565246	CoNOYp4lMEurjsFOxg	192.168.43.178	59147	8.8.8.8	53	udp	45945	0.079057	safebrowsing.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	142.250.181.138	8218.000000	F	0	query
+#close	2026-07-15-12-53-02
