@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-07-15-09-31-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1783777312.250306	C99S484J2MTuB4LBFf	192.168.43.178	40580	172.17.0.2	3000	1	POST	192.168.43.178:3000	/file-upload	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	http://192.168.43.178:3000	354	0	204	No Content	-	-	(empty)	-	-	-	FjM9pv3UMvA7s8ZHU4	shell.php.pdf	text/x-php	-	-	-
+1783777312.293382	C99S484J2MTuB4LBFf	192.168.43.178	40580	172.17.0.2	3000	2	POST	192.168.43.178:3000	/api/Complaints/	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	http://192.168.43.178:3000	45	170	201	Created	-	-	(empty)	-	-	-	Fbp6jE27EJFIrewV7d	-	text/json	FUVwAR2lk5XKUwE4xh	-	text/json
+1783777313.306657	C99S484J2MTuB4LBFf	192.168.43.178	40580	172.17.0.2	3000	3	GET	192.168.43.178:3000	/rest/user/whoami?fields=id,email	http://192.168.43.178:3000/	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2026-07-15-09-31-22
