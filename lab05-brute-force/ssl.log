@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2026-07-15-18-25-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1783836303.559985	CIsebK1Cy8JqGnXFzh	192.168.43.178	41046	162.216.242.58	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	api.dynu.com	F	-	-	T	CsiI	-	-	-
+1783836526.188619	CUNHCJ2NmilBdy2vP7	192.168.43.178	33770	216.58.223.234	443	-	-	-	safebrowsing.googleapis.com	F	-	-	F	CI	-	-	-
+1783836524.698113	C4TuxD2sfG55BZqdSb	192.168.43.178	33766	216.58.223.234	443	-	-	-	safebrowsing.googleapis.com	F	-	-	F	CI	-	-	-
+1783836595.442174	CvP06F4DmjNpdEQtsg	192.168.43.178	57980	34.107.243.93	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	push.services.mozilla.com	T	-	-	T	CsiI	-	-	-
+1783836595.859879	CroEPa2mVzELUKyvQe	192.168.43.178	57994	34.107.243.93	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	push.services.mozilla.com	T	-	-	T	CsiI	-	-	-
+1783836599.690837	CKPNzz2w4kO1hndPl3	192.168.43.178	58008	34.107.243.93	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	push.services.mozilla.com	T	-	-	T	CsiI	-	-	-
+1783836602.766763	C5npXM2PkCNofWlzI5	192.168.43.178	34426	151.101.65.91	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	firefox.settings.services.mozilla.com	T	-	h2	T	CsiI	-	-	-
+1783836602.878827	Cr8MGS3KUPXRPV9VP1	192.168.43.178	34434	151.101.65.91	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	x25519	firefox.settings.services.mozilla.com	F	-	h2	T	CsxknGIti	a21b29cc0265ae6ac2df7bfb6f64befa602e3657a0664ccb8d799991b4562d27,13949634d99cd6fd6aa80bc034fefacceb1969feef986586713ecdbb05758d3f,072639d0b140d5bffae16ad9c3f6cc6086040621f51ee61a6d46a8915c07cf76	(empty)	T
+1783836603.308528	CBJr8y2P4HB07k1S1	192.168.43.178	51918	162.216.242.58	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	api.dynu.com	F	-	-	T	CsiI	-	-	-
+1783836810.364634	CEFuPw2PCKmt8Kzatk	192.168.43.178	36834	151.101.193.91	443	TLSv13	TLS_AES_128_GCM_SHA256	X25519MLKEM768	ads.mozilla.org	T	-	-	T	CIsi	-	-	-
+1783836810.522301	CLqqs92tjTJuiWz209	192.168.43.178	36836	151.101.193.91	443	TLSv13	TLS_AES_128_GCM_SHA256	X25519MLKEM768	ads.mozilla.org	T	-	-	T	CIsi	-	-	-
+1783836902.308287	CLTkJA2WGMhyRafa99	192.168.43.178	56402	162.216.242.58	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	api.dynu.com	F	-	-	T	CsiI	-	-	-
+1783837204.617953	CQnSUo32dMxA4VwCUe	192.168.43.178	49930	162.216.242.240	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	api.dynu.com	F	-	-	T	CsiI	-	-	-
+1783837503.517771	CpY1uIF64xfFMeFw3	192.168.43.178	52642	162.216.242.58	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	api.dynu.com	F	-	-	T	CsiI	-	-	-
+1783837710.658501	C6cUky4OEm3aYoYNMl	192.168.43.178	57112	151.101.1.91	443	TLSv13	TLS_AES_128_GCM_SHA256	X25519MLKEM768	ads.mozilla.org	T	-	-	T	CIsi	-	-	-
+1783837711.107679	Cf3QDI29IDdxBp3pW8	192.168.43.178	57128	151.101.1.91	443	TLSv13	TLS_AES_128_GCM_SHA256	X25519MLKEM768	ads.mozilla.org	T	-	-	T	CIsi	-	-	-
+#close	2026-07-15-18-26-45
